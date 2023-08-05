@@ -1,35 +1,956 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icon.png" />
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#fafafa" />
+  </head>
 
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
-</head>
+  <body >
+    <head>
+      <a href="" style="display: flex; justify-content: center">
+        <svg
+          class="logo-dnoticiaspt"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 190 38"
+          style="height: 28; width: 140"
+        >
+          <path
+            class="logo-color-dnoticiaspt"
+            d="M178.8 9.1h2.2v-6h6.6v6h2.4v6h-2.4v8.1c0 .7.1 1.1.2 1.3.1.2.5.2 1.1.2h1.1v5.8h-3.2c-1 0-1.8-.1-2.6-.2-.7-.2-1.4-.4-1.8-.9-.5-.4-.9-1-1.1-1.7-.2-.7-.4-1.6-.4-2.7V15h-2.2V9.1h.1zm-169 20c-.9 1-2.1 1.6-3.7 1.6-1.3 0-2.4-.2-3.2-.6-.8-.4-1.4-1-1.8-1.7-.4-.7-.7-1.5-.9-2.4-.1-1-.2-2-.2-3v-6.5c0-1.2.1-2.3.3-3.3.2-1 .5-1.8 1-2.5s1.1-1.2 1.9-1.5c.8-.3 1.8-.5 3-.5.8.1 1.5.1 2.1.3.6.2 1.1.5 1.5 1V0h6.6v30.5H9.8v-1.4zm-1.4-4c.5 0 .9-.2 1.1-.6.2-.4.3-.9.3-1.6v-6.6c0-.6-.2-1-.4-1.3-.2-.3-.6-.5-1.3-.5-.6 0-1 .2-1.2.6-.2.4-.3 1.1-.3 2v5.6c0 .7.1 1.2.3 1.7.2.5.7.7 1.5.7zm9.5-16h6.6v1.6c.5-.6 1.2-1 2-1.4.8-.4 1.7-.5 2.8-.5 1.1 0 2 .1 2.7.4.7.3 1.2.7 1.5 1.2.3.5.5 1.2.6 2 .1.8.1 1.8.1 2.9v15.2h-6.6v-14c0-.8-.1-1.3-.2-1.6-.2-.3-.5-.5-1.2-.5-.6 0-1 .1-1.3.4-.3.2-.4.9-.4 2v13.6h-6.6V9.1zm25.8 21.6c-1.5 0-2.8-.2-3.9-.6-1.1-.4-1.9-.9-2.5-1.6-.6-.7-1.1-1.5-1.4-2.4-.3-1-.4-2-.4-3.2v-6.2c0-1.2.1-2.3.4-3.3.2-1 .7-1.8 1.3-2.5.6-.7 1.4-1.2 2.5-1.6 1.1-.4 2.4-.5 4.1-.5 1.7 0 3 .2 4.1.5 1.1.4 1.9.9 2.5 1.6.6.7 1 1.5 1.3 2.5.2 1 .4 2 .4 3.2v6.3c0 1.1-.1 2.2-.4 3.2-.3 1-.7 1.8-1.4 2.5-.6.7-1.5 1.2-2.5 1.6-1.3.3-2.6.5-4.1.5zm0-5.6c.4 0 .8-.1 1.1-.4.3-.3.5-.9.5-1.9v-6.1c0-.5 0-.9-.1-1.2-.1-.3-.2-.5-.3-.6-.1-.1-.3-.2-.5-.3-.2 0-.4-.1-.7-.1-.5 0-.9.1-1.2.4-.3.2-.4.9-.4 1.9v6.1c0 1 .1 1.6.4 1.9.4.1.7.3 1.2.3zm8.8-16h2.2v-6h6.6v6h2.4v6h-2.4v8.1c0 .7.1 1.1.2 1.3.1.2.5.2 1.1.2h1.1v5.8h-3.2c-1 0-1.8-.1-2.6-.2-.7-.2-1.4-.4-1.8-.9-.5-.4-.9-1-1.1-1.7-.2-.7-.4-1.6-.4-2.7V15h-2.2V9.1h.1zM65.2.9h6.6V7h-6.6V.9zm0 8.2h6.6v21.4h-6.6V9.1zm16.1 21.6c-1.5 0-2.8-.2-3.9-.6-1.1-.4-1.9-.9-2.5-1.6-.6-.7-1.1-1.5-1.4-2.4-.3-1-.4-2-.4-3.2v-6.2c0-1.2.1-2.3.3-3.3.2-1 .6-1.8 1.3-2.5.6-.7 1.5-1.2 2.5-1.6 1.1-.4 2.4-.6 4.1-.6 1.7 0 3 .2 4 .5 1 .4 1.8.9 2.4 1.6.6.7 1 1.5 1.2 2.4.2.9.4 1.9.4 3.1l-6.8 1.5v-1.7c0-.4-.1-.8-.2-1-.1-.2-.2-.4-.4-.4-.2-.1-.4-.1-.8-.1s-.7.1-1 .4c-.2.3-.4.9-.4 1.9V23c0 1 .1 1.6.4 1.9.3.3.6.4 1.1.4.5 0 .9-.2 1.1-.5.2-.3.3-1 .4-2.2l6.6 1.3c-.1 1-.3 1.9-.6 2.8-.3.9-.7 1.6-1.3 2.2-.6.6-1.4 1.1-2.3 1.5-1 .1-2.3.3-3.8.3zM90.4.9H97V7h-6.6V.9zm0 8.2H97v21.4h-6.6V9.1zm13.2 21.6c-1.1 0-2-.1-2.6-.4-.7-.3-1.2-.7-1.6-1.2-.4-.5-.6-1.2-.8-2-.1-.8-.2-1.7-.2-2.8 0-1.1.1-2.1.3-3 .2-.9.6-1.7 1.3-2.4.7-.7 1.6-1.3 2.9-1.9 1.3-.5 3-1 5.1-1.4 0-.5-.1-.9-.2-1.1-.2-.2-.6-.3-1.3-.3-.6 0-1.1.1-1.3.3-.2.2-.4.5-.5 1l-6.4-2.4c.3-.6.6-1.1 1-1.7.4-.5.9-1 1.6-1.4.7-.4 1.5-.7 2.5-1 1-.2 2.3-.4 3.7-.4 1.6 0 2.9.1 3.8.4 1 .2 1.7.6 2.2 1.1.5.5.9 1.2 1.1 2 .2.8.3 1.8.3 3v15.2H108v-1.7c-.4.6-.9 1-1.4 1.4-.6.5-1.6.7-3 .7zm2.7-5.1c.7 0 1.1-.2 1.3-.5.2-.3.3-1.1.3-2.2v-2.6c-.7.2-1.2.4-1.6.7-.4.2-.7.5-.9.7-.2.3-.3.6-.3.9v1.1c0 .6.1 1.1.2 1.4.1.4.5.5 1 .5zm17.1 5.1c-2.8 0-4.8-.4-6-1.3-1.3-.9-2-2.3-2.2-4.1l6.1-1.6c0 .9.1 1.5.4 1.8.3.3.7.5 1.4.5.6 0 1-.1 1.2-.3.2-.2.3-.5.3-.9 0-.3-.2-.7-.6-1-.4-.3-1-.6-1.6-1-.7-.3-1.4-.7-2.1-1.1-.7-.4-1.5-.9-2.1-1.5-.7-.6-1.2-1.2-1.6-1.9-.4-.7-.6-1.6-.6-2.6 0-.9.1-1.8.3-2.7.2-.8.6-1.6 1.1-2.2.6-.6 1.3-1.1 2.3-1.5 1-.4 2.3-.5 3.8-.5 2.7 0 4.5.5 5.6 1.4 1.1 1 1.7 2.3 1.9 4.1l-5.9 1.6c0-1-.2-1.5-.4-1.7-.2-.2-.6-.3-1.1-.3-.5 0-.8.1-1 .2-.2.2-.3.5-.3.9s.2.7.6 1c.4.3 1 .6 1.6 1l2.1 1.1c.7.4 1.5.8 2.1 1.4.7.6 1.2 1.2 1.6 2 .4.8.7 1.7.7 2.8 0 2.3-.7 4-1.9 5-1.2.9-3.2 1.4-5.7 1.4zm38.4-21.6h6.6v1.2c.9-1.1 2.1-1.6 3.7-1.6 1.3 0 2.4.2 3.2.6.8.4 1.4 1 1.8 1.7.4.7.7 1.5.8 2.4.1.9.2 1.9.2 2.9v6.4c0 1.2-.1 2.3-.3 3.3-.2 1-.5 1.8-1 2.4-.5.7-1.1 1.2-1.9 1.5-.8.4-1.8.5-3 .5-.8 0-1.5-.1-2.1-.2-.6-.2-1.1-.5-1.5-1V38h-6.6V9.1h.1zM170 25c.6 0 1-.2 1.2-.6.2-.4.3-1.1.3-2v-5.6c0-.7-.1-1.2-.3-1.6-.2-.4-.6-.6-1.4-.6-.5 0-.9.2-1.1.5-.2.4-.3.9-.3 1.5v6.2c0 .7.1 1.3.3 1.7.1.3.6.5 1.3.5z"
+          ></path>
+          <path
+            class="logo-color-dot"
+            d="M155.8 7.9c2.6 2.7 4 5.8 4 9.5s-1.3 6.9-4 9.6c-2.6 2.6-5.8 4-9.5 4s-6.9-1.3-9.5-3.9c-2.7-2.6-4-5.8-4-9.6 0-3.7 1.3-6.9 4-9.5 2.7-2.7 5.9-4 9.6-4 3.5 0 6.7 1.3 9.4 3.9z"
+          ></path>
+        </svg>
+      </a>
+    </head>
 
-<body>
+    <div style="display: flex; justify-content: center;">
+      <div style="max-width: 400px;">
+        <!-- Iniciar Sessao -->
+        <div>
+          <p>
+            Já tem uma conta <b>dnoticias•pt</b>?
+            <a href="#"> Iniciar Session </a>
+          </p>
+        </div>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.12.0.min.js"></script>
-  <script src="js/app.js"></script>
+        <!-- HyperLigaçoes para Iniciar Sessao -->
+        <div style="display: flex; justify-content: center; gap: 5px">
+          <a
+            href="#"
+            style="
+              text-decoration: none;
+              border: solid 2px grey;
+              border-radius: 6px;
+              padding: 10px 20px;
+            "
+          >
+            <img
+              src="https://assinaturas.dnoticias.pt/static/frontoffice/imgs/login-social-google.svg"
+              alt=""
+              style="width: 20px; height: 20px"
+            />
+            <b>Google</b>
+          </a>
+          <a
+            href="#"
+            style="
+              text-decoration: none;
+              border: solid 2px grey;
+              border-radius: 6px;
+              padding: 10px 20px;
+            "
+          >
+            <img
+              src="https://assinaturas.dnoticias.pt/static/frontoffice/imgs/login-social-fb.svg"
+              alt=""
+              style="width: 20px; height: 20px"
+            />
+            <b>Facebook</b>
+          </a>
+        </div>
 
-</body>
+        <!-- Separador -->
+        <div style="display: flex; justify-content: center">
+          <span>-ou-</span>
+        </div>
 
+        <!-- Form -->
+        <div>
+          <!-- Form Dados Pessoais -->
+          <div>
+            <fieldset
+              name="log-in"
+              style="display: flex; flex-direction: column"
+            >
+              <p>
+                <input
+                  type="text"
+                  name="log-in"
+                  id="nome__log-in"
+                  placeholder="Nome"
+                  maxlength="256"
+                />
+              </p>
+
+              <p>
+                <input
+                  type="text"
+                  name="log-in"
+                  id="apelido__log-in"
+                  placeholder="Apelido"
+                />
+              </p>
+
+              <p>
+                <select name="log-in" id="pais__log-in">
+                  <option value="AF" data-select2-id="select2-data-5-hhek">
+                    Afghanistan
+                  </option>
+                  <option value="AX" data-select2-id="select2-data-6-4n4d">
+                    Åland Islands
+                  </option>
+                  <option value="AL" data-select2-id="select2-data-7-kf4u">
+                    Albania
+                  </option>
+                  <option value="DZ" data-select2-id="select2-data-8-tl8s">
+                    Algeria
+                  </option>
+                  <option value="AS" data-select2-id="select2-data-9-96ee">
+                    American Samoa
+                  </option>
+                  <option value="AD" data-select2-id="select2-data-10-2khm">
+                    Andorra
+                  </option>
+                  <option value="AO" data-select2-id="select2-data-11-7r59">
+                    Angola
+                  </option>
+                  <option value="AI" data-select2-id="select2-data-12-5b17">
+                    Anguilla
+                  </option>
+                  <option value="AQ" data-select2-id="select2-data-13-ip14">
+                    Antarctica
+                  </option>
+                  <option value="AG" data-select2-id="select2-data-14-mn6x">
+                    Antigua &amp; Barbuda
+                  </option>
+                  <option value="AR" data-select2-id="select2-data-15-x3xq">
+                    Argentina
+                  </option>
+                  <option value="AM" data-select2-id="select2-data-16-j1l2">
+                    Armenia
+                  </option>
+                  <option value="AW" data-select2-id="select2-data-17-h4zs">
+                    Aruba
+                  </option>
+                  <option value="AU" data-select2-id="select2-data-18-m6jk">
+                    Australia
+                  </option>
+                  <option value="AT" data-select2-id="select2-data-19-xeju">
+                    Austria
+                  </option>
+                  <option value="AZ" data-select2-id="select2-data-20-fo53">
+                    Azerbaijan
+                  </option>
+                  <option value="BS" data-select2-id="select2-data-21-ffhq">
+                    Bahamas
+                  </option>
+                  <option value="BH" data-select2-id="select2-data-22-2v4u">
+                    Bahrain
+                  </option>
+                  <option value="BD" data-select2-id="select2-data-23-uobr">
+                    Bangladesh
+                  </option>
+                  <option value="BB" data-select2-id="select2-data-24-j4ga">
+                    Barbados
+                  </option>
+                  <option value="BY" data-select2-id="select2-data-25-al39">
+                    Belarus
+                  </option>
+                  <option value="BE" data-select2-id="select2-data-26-4xpz">
+                    Belgium
+                  </option>
+                  <option value="BZ" data-select2-id="select2-data-27-d4rr">
+                    Belize
+                  </option>
+                  <option value="BJ" data-select2-id="select2-data-28-fb1d">
+                    Benin
+                  </option>
+                  <option value="BM" data-select2-id="select2-data-29-2m70">
+                    Bermuda
+                  </option>
+                  <option value="BT" data-select2-id="select2-data-30-dbgr">
+                    Bhutan
+                  </option>
+                  <option value="BO" data-select2-id="select2-data-31-02yq">
+                    Bolivia
+                  </option>
+                  <option value="BA" data-select2-id="select2-data-32-3ynp">
+                    Bosnia &amp; Herzegovina
+                  </option>
+                  <option value="BW" data-select2-id="select2-data-33-nlqv">
+                    Botswana
+                  </option>
+                  <option value="BV" data-select2-id="select2-data-34-no6n">
+                    Bouvet Island
+                  </option>
+                  <option value="BR" data-select2-id="select2-data-35-i9sy">
+                    Brazil
+                  </option>
+                  <option value="IO" data-select2-id="select2-data-36-pl6b">
+                    British Indian Ocean Territory
+                  </option>
+                  <option value="VG" data-select2-id="select2-data-37-3hvp">
+                    British Virgin Islands
+                  </option>
+                  <option value="BN" data-select2-id="select2-data-38-7jv2">
+                    Brunei
+                  </option>
+                  <option value="BG" data-select2-id="select2-data-39-d0d3">
+                    Bulgaria
+                  </option>
+                  <option value="BF" data-select2-id="select2-data-40-996u">
+                    Burkina Faso
+                  </option>
+                  <option value="BI" data-select2-id="select2-data-41-6j0x">
+                    Burundi
+                  </option>
+                  <option value="KH" data-select2-id="select2-data-42-u4ze">
+                    Cambodia
+                  </option>
+                  <option value="CM" data-select2-id="select2-data-43-3rw4">
+                    Cameroon
+                  </option>
+                  <option value="CA" data-select2-id="select2-data-44-h7jp">
+                    Canada
+                  </option>
+                  <option value="CV" data-select2-id="select2-data-45-v5fo">
+                    Cape Verde
+                  </option>
+                  <option value="BQ" data-select2-id="select2-data-46-umxl">
+                    Caribbean Netherlands
+                  </option>
+                  <option value="KY" data-select2-id="select2-data-47-jfr2">
+                    Cayman Islands
+                  </option>
+                  <option value="CF" data-select2-id="select2-data-48-8maa">
+                    Central African Republic
+                  </option>
+                  <option value="TD" data-select2-id="select2-data-49-5fat">
+                    Chad
+                  </option>
+                  <option value="CL" data-select2-id="select2-data-50-w9s7">
+                    Chile
+                  </option>
+                  <option value="CN" data-select2-id="select2-data-51-te3j">
+                    China
+                  </option>
+                  <option value="CX" data-select2-id="select2-data-52-zax2">
+                    Christmas Island
+                  </option>
+                  <option value="CC" data-select2-id="select2-data-53-xyw0">
+                    Cocos (Keeling) Islands
+                  </option>
+                  <option value="CO" data-select2-id="select2-data-54-lp16">
+                    Colombia
+                  </option>
+                  <option value="KM" data-select2-id="select2-data-55-c89j">
+                    Comoros
+                  </option>
+                  <option value="CG" data-select2-id="select2-data-56-re36">
+                    Congo - Brazzaville
+                  </option>
+                  <option value="CD" data-select2-id="select2-data-57-o4h7">
+                    Congo - Kinshasa
+                  </option>
+                  <option value="CK" data-select2-id="select2-data-58-k4xj">
+                    Cook Islands
+                  </option>
+                  <option value="CR" data-select2-id="select2-data-59-xzjr">
+                    Costa Rica
+                  </option>
+                  <option value="CI" data-select2-id="select2-data-60-75xh">
+                    Côte d’Ivoire
+                  </option>
+                  <option value="HR" data-select2-id="select2-data-61-qy0a">
+                    Croatia
+                  </option>
+                  <option value="CU" data-select2-id="select2-data-62-d6im">
+                    Cuba
+                  </option>
+                  <option value="CW" data-select2-id="select2-data-63-0p4c">
+                    Curaçao
+                  </option>
+                  <option value="CY" data-select2-id="select2-data-64-apcf">
+                    Cyprus
+                  </option>
+                  <option value="CZ" data-select2-id="select2-data-65-ffy8">
+                    Czechia
+                  </option>
+                  <option value="DK" data-select2-id="select2-data-66-7b3i">
+                    Denmark
+                  </option>
+                  <option value="DJ" data-select2-id="select2-data-67-v8ot">
+                    Djibouti
+                  </option>
+                  <option value="DM" data-select2-id="select2-data-68-zq44">
+                    Dominica
+                  </option>
+                  <option value="DO" data-select2-id="select2-data-69-6kw7">
+                    Dominican Republic
+                  </option>
+                  <option value="EC" data-select2-id="select2-data-70-k428">
+                    Ecuador
+                  </option>
+                  <option value="EG" data-select2-id="select2-data-71-vx3i">
+                    Egypt
+                  </option>
+                  <option value="SV" data-select2-id="select2-data-72-8siq">
+                    El Salvador
+                  </option>
+                  <option value="GQ" data-select2-id="select2-data-73-l3j1">
+                    Equatorial Guinea
+                  </option>
+                  <option value="ER" data-select2-id="select2-data-74-khes">
+                    Eritrea
+                  </option>
+                  <option value="EE" data-select2-id="select2-data-75-al47">
+                    Estonia
+                  </option>
+                  <option value="SZ" data-select2-id="select2-data-76-6w9b">
+                    Eswatini
+                  </option>
+                  <option value="ET" data-select2-id="select2-data-77-rdl3">
+                    Ethiopia
+                  </option>
+                  <option value="FK" data-select2-id="select2-data-78-8yhz">
+                    Falkland Islands
+                  </option>
+                  <option value="FO" data-select2-id="select2-data-79-wgmv">
+                    Faroe Islands
+                  </option>
+                  <option value="FJ" data-select2-id="select2-data-80-6p76">
+                    Fiji
+                  </option>
+                  <option value="FI" data-select2-id="select2-data-81-n957">
+                    Finland
+                  </option>
+                  <option value="FR" data-select2-id="select2-data-82-obgj">
+                    France
+                  </option>
+                  <option value="GF" data-select2-id="select2-data-83-e3va">
+                    French Guiana
+                  </option>
+                  <option value="PF" data-select2-id="select2-data-84-kwuo">
+                    French Polynesia
+                  </option>
+                  <option value="TF" data-select2-id="select2-data-85-o353">
+                    French Southern Territories
+                  </option>
+                  <option value="GA" data-select2-id="select2-data-86-ohrv">
+                    Gabon
+                  </option>
+                  <option value="GM" data-select2-id="select2-data-87-9hae">
+                    Gambia
+                  </option>
+                  <option value="GE" data-select2-id="select2-data-88-aken">
+                    Georgia
+                  </option>
+                  <option value="DE" data-select2-id="select2-data-89-jeyx">
+                    Germany
+                  </option>
+                  <option value="GH" data-select2-id="select2-data-90-ndou">
+                    Ghana
+                  </option>
+                  <option value="GI" data-select2-id="select2-data-91-d654">
+                    Gibraltar
+                  </option>
+                  <option value="GR" data-select2-id="select2-data-92-renf">
+                    Greece
+                  </option>
+                  <option value="GL" data-select2-id="select2-data-93-gmz2">
+                    Greenland
+                  </option>
+                  <option value="GD" data-select2-id="select2-data-94-nn0t">
+                    Grenada
+                  </option>
+                  <option value="GP" data-select2-id="select2-data-95-neh3">
+                    Guadeloupe
+                  </option>
+                  <option value="GU" data-select2-id="select2-data-96-bji6">
+                    Guam
+                  </option>
+                  <option value="GT" data-select2-id="select2-data-97-2ef0">
+                    Guatemala
+                  </option>
+                  <option value="GG" data-select2-id="select2-data-98-82mt">
+                    Guernsey
+                  </option>
+                  <option value="GN" data-select2-id="select2-data-99-4rqx">
+                    Guinea
+                  </option>
+                  <option value="GW" data-select2-id="select2-data-100-199z">
+                    Guinea-Bissau
+                  </option>
+                  <option value="GY" data-select2-id="select2-data-101-q8kk">
+                    Guyana
+                  </option>
+                  <option value="HT" data-select2-id="select2-data-102-tc1v">
+                    Haiti
+                  </option>
+                  <option value="HM" data-select2-id="select2-data-103-jltw">
+                    Heard &amp; McDonald Islands
+                  </option>
+                  <option value="HN" data-select2-id="select2-data-104-im1f">
+                    Honduras
+                  </option>
+                  <option value="HK" data-select2-id="select2-data-105-daj5">
+                    Hong Kong SAR China
+                  </option>
+                  <option value="HU" data-select2-id="select2-data-106-6cqz">
+                    Hungary
+                  </option>
+                  <option value="IS" data-select2-id="select2-data-107-b8or">
+                    Iceland
+                  </option>
+                  <option value="IN" data-select2-id="select2-data-108-kw7h">
+                    India
+                  </option>
+                  <option value="ID" data-select2-id="select2-data-109-fd5i">
+                    Indonesia
+                  </option>
+                  <option value="IR" data-select2-id="select2-data-110-pbuu">
+                    Iran
+                  </option>
+                  <option value="IQ" data-select2-id="select2-data-111-779l">
+                    Iraq
+                  </option>
+                  <option value="IE" data-select2-id="select2-data-112-zxay">
+                    Ireland
+                  </option>
+                  <option value="IM" data-select2-id="select2-data-113-xbf1">
+                    Isle of Man
+                  </option>
+                  <option value="IL" data-select2-id="select2-data-114-3ygh">
+                    Israel
+                  </option>
+                  <option value="IT" data-select2-id="select2-data-115-34js">
+                    Italy
+                  </option>
+                  <option value="JM" data-select2-id="select2-data-116-r2ut">
+                    Jamaica
+                  </option>
+                  <option value="JP" data-select2-id="select2-data-117-h8ef">
+                    Japan
+                  </option>
+                  <option value="JE" data-select2-id="select2-data-118-lobf">
+                    Jersey
+                  </option>
+                  <option value="JO" data-select2-id="select2-data-119-75o9">
+                    Jordan
+                  </option>
+                  <option value="KZ" data-select2-id="select2-data-120-s8bn">
+                    Kazakhstan
+                  </option>
+                  <option value="KE" data-select2-id="select2-data-121-qhqq">
+                    Kenya
+                  </option>
+                  <option value="KI" data-select2-id="select2-data-122-pdfm">
+                    Kiribati
+                  </option>
+                  <option value="KW" data-select2-id="select2-data-123-8lpj">
+                    Kuwait
+                  </option>
+                  <option value="KG" data-select2-id="select2-data-124-n70c">
+                    Kyrgyzstan
+                  </option>
+                  <option value="LA" data-select2-id="select2-data-125-ztzv">
+                    Laos
+                  </option>
+                  <option value="LV" data-select2-id="select2-data-126-bms2">
+                    Latvia
+                  </option>
+                  <option value="LB" data-select2-id="select2-data-127-ulzc">
+                    Lebanon
+                  </option>
+                  <option value="LS" data-select2-id="select2-data-128-901p">
+                    Lesotho
+                  </option>
+                  <option value="LR" data-select2-id="select2-data-129-cis7">
+                    Liberia
+                  </option>
+                  <option value="LY" data-select2-id="select2-data-130-mcbh">
+                    Libya
+                  </option>
+                  <option value="LI" data-select2-id="select2-data-131-owio">
+                    Liechtenstein
+                  </option>
+                  <option value="LT" data-select2-id="select2-data-132-npnr">
+                    Lithuania
+                  </option>
+                  <option value="LU" data-select2-id="select2-data-133-655h">
+                    Luxembourg
+                  </option>
+                  <option value="MO" data-select2-id="select2-data-134-nsnp">
+                    Macao SAR China
+                  </option>
+                  <option value="MG" data-select2-id="select2-data-135-k76j">
+                    Madagascar
+                  </option>
+                  <option value="MW" data-select2-id="select2-data-136-2qfs">
+                    Malawi
+                  </option>
+                  <option value="MY" data-select2-id="select2-data-137-g47o">
+                    Malaysia
+                  </option>
+                  <option value="MV" data-select2-id="select2-data-138-1xga">
+                    Maldives
+                  </option>
+                  <option value="ML" data-select2-id="select2-data-139-717a">
+                    Mali
+                  </option>
+                  <option value="MT" data-select2-id="select2-data-140-zynj">
+                    Malta
+                  </option>
+                  <option value="MH" data-select2-id="select2-data-141-cn2q">
+                    Marshall Islands
+                  </option>
+                  <option value="MQ" data-select2-id="select2-data-142-7hrs">
+                    Martinique
+                  </option>
+                  <option value="MR" data-select2-id="select2-data-143-n954">
+                    Mauritania
+                  </option>
+                  <option value="MU" data-select2-id="select2-data-144-6rz7">
+                    Mauritius
+                  </option>
+                  <option value="YT" data-select2-id="select2-data-145-kz5q">
+                    Mayotte
+                  </option>
+                  <option value="MX" data-select2-id="select2-data-146-2cd2">
+                    Mexico
+                  </option>
+                  <option value="FM" data-select2-id="select2-data-147-nm4g">
+                    Micronesia
+                  </option>
+                  <option value="MD" data-select2-id="select2-data-148-glgl">
+                    Moldova
+                  </option>
+                  <option value="MC" data-select2-id="select2-data-149-1v02">
+                    Monaco
+                  </option>
+                  <option value="MN" data-select2-id="select2-data-150-usq5">
+                    Mongolia
+                  </option>
+                  <option value="ME" data-select2-id="select2-data-151-gpk6">
+                    Montenegro
+                  </option>
+                  <option value="MS" data-select2-id="select2-data-152-tlj2">
+                    Montserrat
+                  </option>
+                  <option value="MA" data-select2-id="select2-data-153-o9mm">
+                    Morocco
+                  </option>
+                  <option value="MZ" data-select2-id="select2-data-154-z2ln">
+                    Mozambique
+                  </option>
+                  <option value="MM" data-select2-id="select2-data-155-0y5h">
+                    Myanmar (Burma)
+                  </option>
+                  <option value="NA" data-select2-id="select2-data-156-hc3t">
+                    Namibia
+                  </option>
+                  <option value="NR" data-select2-id="select2-data-157-i69d">
+                    Nauru
+                  </option>
+                  <option value="NP" data-select2-id="select2-data-158-kvyg">
+                    Nepal
+                  </option>
+                  <option value="NL" data-select2-id="select2-data-159-yf1z">
+                    Netherlands
+                  </option>
+                  <option value="NC" data-select2-id="select2-data-160-ytq6">
+                    New Caledonia
+                  </option>
+                  <option value="NZ" data-select2-id="select2-data-161-e2bz">
+                    New Zealand
+                  </option>
+                  <option value="NI" data-select2-id="select2-data-162-af86">
+                    Nicaragua
+                  </option>
+                  <option value="NE" data-select2-id="select2-data-163-xfxg">
+                    Niger
+                  </option>
+                  <option value="NG" data-select2-id="select2-data-164-sl13">
+                    Nigeria
+                  </option>
+                  <option value="NU" data-select2-id="select2-data-165-2dmh">
+                    Niue
+                  </option>
+                  <option value="NF" data-select2-id="select2-data-166-p1xz">
+                    Norfolk Island
+                  </option>
+                  <option value="KP" data-select2-id="select2-data-167-3d53">
+                    North Korea
+                  </option>
+                  <option value="MK" data-select2-id="select2-data-168-vuyh">
+                    North Macedonia
+                  </option>
+                  <option value="MP" data-select2-id="select2-data-169-jxrd">
+                    Northern Mariana Islands
+                  </option>
+                  <option value="NO" data-select2-id="select2-data-170-vswe">
+                    Norway
+                  </option>
+                  <option value="OM" data-select2-id="select2-data-171-taj7">
+                    Oman
+                  </option>
+                  <option value="PK" data-select2-id="select2-data-172-snm7">
+                    Pakistan
+                  </option>
+                  <option value="PW" data-select2-id="select2-data-173-es6q">
+                    Palau
+                  </option>
+                  <option value="PS" data-select2-id="select2-data-174-atfp">
+                    Palestinian Territories
+                  </option>
+                  <option value="PA" data-select2-id="select2-data-175-4blf">
+                    Panama
+                  </option>
+                  <option value="PG" data-select2-id="select2-data-176-3gow">
+                    Papua New Guinea
+                  </option>
+                  <option value="PY" data-select2-id="select2-data-177-m4hx">
+                    Paraguay
+                  </option>
+                  <option value="PE" data-select2-id="select2-data-178-2su9">
+                    Peru
+                  </option>
+                  <option value="PH" data-select2-id="select2-data-179-7mji">
+                    Philippines
+                  </option>
+                  <option value="PN" data-select2-id="select2-data-180-psg3">
+                    Pitcairn Islands
+                  </option>
+                  <option value="PL" data-select2-id="select2-data-181-etq6">
+                    Poland
+                  </option>
+                  <option
+                    value="PT"
+                    selected=""
+                    data-select2-id="select2-data-2-3b2v"
+                  >
+                    Portugal
+                  </option>
+                  <option value="PR" data-select2-id="select2-data-182-n21o">
+                    Puerto Rico
+                  </option>
+                  <option value="QA" data-select2-id="select2-data-183-ybrs">
+                    Qatar
+                  </option>
+                  <option value="RE" data-select2-id="select2-data-184-wgs1">
+                    Réunion
+                  </option>
+                  <option value="RO" data-select2-id="select2-data-185-nd1i">
+                    Romania
+                  </option>
+                  <option value="RU" data-select2-id="select2-data-186-rhmf">
+                    Russia
+                  </option>
+                  <option value="RW" data-select2-id="select2-data-187-dahh">
+                    Rwanda
+                  </option>
+                  <option value="WS" data-select2-id="select2-data-188-3aq4">
+                    Samoa
+                  </option>
+                  <option value="SM" data-select2-id="select2-data-189-7aun">
+                    San Marino
+                  </option>
+                  <option value="ST" data-select2-id="select2-data-190-ueg1">
+                    São Tomé &amp; Príncipe
+                  </option>
+                  <option value="SA" data-select2-id="select2-data-191-bdq7">
+                    Saudi Arabia
+                  </option>
+                  <option value="SN" data-select2-id="select2-data-192-iuvs">
+                    Senegal
+                  </option>
+                  <option value="RS" data-select2-id="select2-data-193-8tpi">
+                    Serbia
+                  </option>
+                  <option value="SC" data-select2-id="select2-data-194-pqxk">
+                    Seychelles
+                  </option>
+                  <option value="SL" data-select2-id="select2-data-195-78wa">
+                    Sierra Leone
+                  </option>
+                  <option value="SG" data-select2-id="select2-data-196-lg1y">
+                    Singapore
+                  </option>
+                  <option value="SX" data-select2-id="select2-data-197-e4eo">
+                    Sint Maarten
+                  </option>
+                  <option value="SK" data-select2-id="select2-data-198-yc2c">
+                    Slovakia
+                  </option>
+                  <option value="SI" data-select2-id="select2-data-199-bz6t">
+                    Slovenia
+                  </option>
+                  <option value="SB" data-select2-id="select2-data-200-mang">
+                    Solomon Islands
+                  </option>
+                  <option value="SO" data-select2-id="select2-data-201-dlfh">
+                    Somalia
+                  </option>
+                  <option value="ZA" data-select2-id="select2-data-202-w7vn">
+                    South Africa
+                  </option>
+                  <option value="GS" data-select2-id="select2-data-203-ot5l">
+                    South Georgia &amp; South Sandwich Islands
+                  </option>
+                  <option value="KR" data-select2-id="select2-data-204-cuel">
+                    South Korea
+                  </option>
+                  <option value="SS" data-select2-id="select2-data-205-ahqt">
+                    South Sudan
+                  </option>
+                  <option value="ES" data-select2-id="select2-data-206-rjmc">
+                    Spain
+                  </option>
+                  <option value="LK" data-select2-id="select2-data-207-9tcv">
+                    Sri Lanka
+                  </option>
+                  <option value="BL" data-select2-id="select2-data-208-geh9">
+                    St. Barthélemy
+                  </option>
+                  <option value="SH" data-select2-id="select2-data-209-zm0q">
+                    St. Helena
+                  </option>
+                  <option value="KN" data-select2-id="select2-data-210-tytd">
+                    St. Kitts &amp; Nevis
+                  </option>
+                  <option value="LC" data-select2-id="select2-data-211-xkmf">
+                    St. Lucia
+                  </option>
+                  <option value="MF" data-select2-id="select2-data-212-ct36">
+                    St. Martin
+                  </option>
+                  <option value="PM" data-select2-id="select2-data-213-a493">
+                    St. Pierre &amp; Miquelon
+                  </option>
+                  <option value="VC" data-select2-id="select2-data-214-0j15">
+                    St. Vincent &amp; Grenadines
+                  </option>
+                  <option value="SD" data-select2-id="select2-data-215-6sab">
+                    Sudan
+                  </option>
+                  <option value="SR" data-select2-id="select2-data-216-bc4n">
+                    Suriname
+                  </option>
+                  <option value="SJ" data-select2-id="select2-data-217-3ud3">
+                    Svalbard &amp; Jan Mayen
+                  </option>
+                  <option value="SE" data-select2-id="select2-data-218-upqi">
+                    Sweden
+                  </option>
+                  <option value="CH" data-select2-id="select2-data-219-rqgo">
+                    Switzerland
+                  </option>
+                  <option value="SY" data-select2-id="select2-data-220-j7lc">
+                    Syria
+                  </option>
+                  <option value="TW" data-select2-id="select2-data-221-pzo4">
+                    Taiwan
+                  </option>
+                  <option value="TJ" data-select2-id="select2-data-222-agps">
+                    Tajikistan
+                  </option>
+                  <option value="TZ" data-select2-id="select2-data-223-dssc">
+                    Tanzania
+                  </option>
+                  <option value="TH" data-select2-id="select2-data-224-58zw">
+                    Thailand
+                  </option>
+                  <option value="TL" data-select2-id="select2-data-225-8zd2">
+                    Timor-Leste
+                  </option>
+                  <option value="TG" data-select2-id="select2-data-226-62u6">
+                    Togo
+                  </option>
+                  <option value="TK" data-select2-id="select2-data-227-krbn">
+                    Tokelau
+                  </option>
+                  <option value="TO" data-select2-id="select2-data-228-w9qb">
+                    Tonga
+                  </option>
+                  <option value="TT" data-select2-id="select2-data-229-0vg0">
+                    Trinidad &amp; Tobago
+                  </option>
+                  <option value="TN" data-select2-id="select2-data-230-6cyf">
+                    Tunisia
+                  </option>
+                  <option value="TR" data-select2-id="select2-data-231-n3l8">
+                    Turkey
+                  </option>
+                  <option value="TM" data-select2-id="select2-data-232-bw50">
+                    Turkmenistan
+                  </option>
+                  <option value="TC" data-select2-id="select2-data-233-a6b2">
+                    Turks &amp; Caicos Islands
+                  </option>
+                  <option value="TV" data-select2-id="select2-data-234-ztgt">
+                    Tuvalu
+                  </option>
+                  <option value="UM" data-select2-id="select2-data-235-28ks">
+                    U.S. Outlying Islands
+                  </option>
+                  <option value="VI" data-select2-id="select2-data-236-rmnw">
+                    U.S. Virgin Islands
+                  </option>
+                  <option value="UG" data-select2-id="select2-data-237-4xwj">
+                    Uganda
+                  </option>
+                  <option value="UA" data-select2-id="select2-data-238-wxg8">
+                    Ukraine
+                  </option>
+                  <option value="AE" data-select2-id="select2-data-239-chkm">
+                    United Arab Emirates
+                  </option>
+                  <option value="GB" data-select2-id="select2-data-240-fbr5">
+                    United Kingdom
+                  </option>
+                  <option value="US" data-select2-id="select2-data-241-qlop">
+                    United States
+                  </option>
+                  <option value="UY" data-select2-id="select2-data-242-888l">
+                    Uruguay
+                  </option>
+                  <option value="UZ" data-select2-id="select2-data-243-sjgo">
+                    Uzbekistan
+                  </option>
+                  <option value="VU" data-select2-id="select2-data-244-hmya">
+                    Vanuatu
+                  </option>
+                  <option value="VA" data-select2-id="select2-data-245-n8dk">
+                    Vatican City
+                  </option>
+                  <option value="VE" data-select2-id="select2-data-246-i7rc">
+                    Venezuela
+                  </option>
+                  <option value="VN" data-select2-id="select2-data-247-w2jg">
+                    Vietnam
+                  </option>
+                  <option value="WF" data-select2-id="select2-data-248-gvx5">
+                    Wallis &amp; Futuna
+                  </option>
+                  <option value="EH" data-select2-id="select2-data-249-gzrf">
+                    Western Sahara
+                  </option>
+                  <option value="YE" data-select2-id="select2-data-250-6kcn">
+                    Yemen
+                  </option>
+                  <option value="ZM" data-select2-id="select2-data-251-ulby">
+                    Zambia
+                  </option>
+                  <option value="ZW" data-select2-id="select2-data-252-0kcq">
+                    Zimbabwe
+                  </option>
+                </select>
+              </p>
+            </fieldset>
+          </div>
+
+          <!-- Form Dados Bancarios -->
+          <div>
+            <fieldset style="display: flex; flex-direction: column">
+              <legend>
+                <b>MÉTODOS DE PAGAMENTO</b>
+              </legend>
+
+              <div style="display: flex; justify-content: center; gap: 5px">
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    position: relative;
+                    border: solid 2px grey;
+                    border-radius: 6px;
+                    width: 100%;
+                  "
+                >
+                  <p style="position: absolute; top: 0; left: 0">
+                    <input
+                      type="radio"
+                      name="log-in"
+                      id="mb_banco"
+                      value="mb"
+                    />
+                  </p>
+                  <label for="mb_banco">
+                    <img
+                      src="https://assinaturas.dnoticias.pt/static/frontoffice/imgs/metodos-pagamento-mb.svg"
+                      alt=""
+                      style="height: 60px; width: 60px"
+                    />
+                  </label>
+                </div>
+
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    position: relative;
+                    border: solid 2px grey;
+                    border-radius: 6px;
+                    width: 100%;
+                  "
+                >
+                  <p style="position: absolute; top: 0; right: 0">
+                    <input
+                      type="radio"
+                      name="log-in"
+                      id="visa_banco"
+                      value="visa"
+                    />
+                  </p>
+                  <label for="visa_banco">
+                    <img
+                      src="https://assinaturas.dnoticias.pt/static/frontoffice/imgs/metodos-pagamento-visa.svg"
+                      alt=""
+                      style="height: 60px; width: 60px"
+                    />
+                  </label>
+                </div>
+              </div>
+              <p>
+                O pagamento com cartão de crédito disponibiliza a compra de
+                imediato. São aceites os cartões: Visa, Visa Electron,
+                Mastercard e Maestro.
+              </p>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
+
